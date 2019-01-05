@@ -1,0 +1,21 @@
+{
+  "name": "curso-webpack",
+  "version": "1.0.0",
+  "description": "curso de webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack index.js --output bundle.js --mode development",
+    "build:local": "webpack",
+    "build:external": "webpack --config ./external/webpack.config.js"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "@pereyrarg11",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.1.2"
+  }
+}

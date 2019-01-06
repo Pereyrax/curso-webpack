@@ -1,0 +1,8 @@
+body {
+  align-items: center;
+  background: lightblue;
+  display: flex;
+  font-size: 2rem;
+  justify-content: center;
+  min-height: 100vh;
+}
